@@ -1,4 +1,4 @@
-# ACC Driver-in-the-Loop Simulation Toolkit
+# Driver-in-the-Loop Simulation Toolkit
 
 Python telemetry integration for **Assetto Corsa Competizione** — shared memory reader, real-time dashboard, data logger, and post-session lap analysis.
 
