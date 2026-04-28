@@ -1,0 +1,26 @@
+# ACC Driver-in-the-Loop Simulation Toolkit
+# Install with: pip install -r requirements.txt
+
+# ── Core runtime ──────────────────────────────────────────────────────────────
+# (ctypes, mmap, sqlite3, csv, threading, queue are part of the stdlib)
+
+# ── Terminal dashboard ─────────────────────────────────────────────────────────
+rich>=13.0.0
+
+# ── Data analysis ─────────────────────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib>=3.7.0
+
+# ── Optional: faster HDF5 lap archives ────────────────────────────────────────
+# tables>=3.8.0           # PyTables / HDF5 support (uncomment if needed)
+# h5py>=3.8.0             # alternative HDF5 backend
+
+# ── Optional: web-based dashboards ────────────────────────────────────────────
+# plotly>=5.0.0            # interactive HTML plots
+# dash>=2.0.0              # Plotly Dash web app
+
+# ── Optional: UDP receiver extras ─────────────────────────────────────────────
+# (udp_receiver.py uses only stdlib socket; no extra deps needed)
